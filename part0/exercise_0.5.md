@@ -5,7 +5,6 @@
 sequenceDiagram
     participant browser
     participant server
-    participant data.json as file
     
     browser-->>server: GET https://studies.cs.helsinki.fi/exampleapp/spa
     activate server
