@@ -15,7 +15,7 @@ sequenceDiagram
     activate file
     file-->>server: res.redirect('/notes')
     deactivate file
-    Note right of file: { "content":"prueba ejercicio 0.4" , "date":"now()"
+    Note right of file: { "content":"prueba ejercicio 0.4" , "date":"now()" }
     server-->>browser: https://studies.cs.helsinki.fi/exampleapp/new_note 302 found
     deactivate server
     Note right of server: Location: https://studies.cs.helsinki.fi/exampleapp/notes
